@@ -1,0 +1,20 @@
+{
+  "name": "y",
+  "version": "y",
+  "description": "y",
+  "main": "y",
+  "repository": "y",
+  "author": "y",
+  "license": "y",
+  "private": true,
+  "devDependencies": {
+    "@babel/cli": "^7.7.7",
+    "@babel/core": "^7.7.7",
+    "babel-plugin-css-modules-transform": "^1.6.2",
+    "babel-plugin-inline-json-import": "^0.3.2",
+    "babel-preset-cozy-app": "^1.7.0"
+  },
+  "scripts": {
+    "build": "babel src/ --out-dir transpiled --verbose"
+  }
+}
